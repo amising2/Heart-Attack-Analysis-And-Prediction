@@ -5,7 +5,7 @@
 #### Executive summary
 
 What is Heart Attack?¶
-1 heart attack.jpg
+![](../images/Heart_attack_Intro.jpeg)
 
 The medical name of heart attack is “Myocardial infarction”.
 Heart attack in short; It is the occlusion of the vessel by plaque-like lesions filled with cholesterol and fat.
@@ -21,7 +21,32 @@ Coronary insufficiency occurs when there is a disruption in the circulation of t
 The cases of coronary insufficiency vary according to the type, degree and location of the stenosis in the coronary vessels.
 While some patients may have chest pain that occurs only during physical activity and is relieved by rest, sometimes a heart attack may occur as a result of sudden occlusion of the vessels, starting with severe chest pain and leading to sudden death.
 What are the symptoms of a heart attack?
-3 heart attack symptoms.jpg
+Typical Symptoms:
+Chest pain or discomfort: Often described as pressure, tightness, squeezing, or fullness in the center or left side of the chest.
+
+Pain in other areas: May spread to shoulders, arms (especially left), back, neck, jaw, or stomach.
+
+Shortness of breath: May occur with or without chest pain.
+
+Cold sweat
+
+Nausea or vomiting
+
+Lightheadedness or dizziness
+
+Fatigue: Especially in women, who may also have more subtle symptoms.
+
+Note on Atypical Symptoms (especially in women, elderly, or diabetics):
+Unusual fatigue
+
+Indigestion or heartburn
+
+Anxiety or a sense of doom
+
+Pain in the jaw or back without chest pain
+
+
+
 
 
 
