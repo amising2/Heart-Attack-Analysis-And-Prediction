@@ -25,8 +25,11 @@ What is Heart Attack?
 *As a result of the blockage, the blood flow is completely cut off and a heart attack that can lead to death occurs.
 
 How does a heart attack occur?
-
-![Uploading Heart_attack.jpeg…]()
+*The heart is a powerful pump that pumps blood throughout the body 60-80 times per minute at rest.
+*While meeting the blood needs of the whole body, it also needs to be fed and taken blood.
+*These vessels that feed the heart itself are called coronary arteries. Coronary insufficiency occurs when there is a disruption in the circulation of the coronary arteries.
+*The cases of coronary insufficiency vary according to the type, degree and location of the stenosis in the coronary vessels.
+*While some patients may have chest pain that occurs only during physical activity and is relieved by rest, sometimes a heart attack may occur as a result of sudden occlusion of the vessels, starting with severe chest pain and leading to sudden death.
 
 ## How to use the files in this repository?
 
