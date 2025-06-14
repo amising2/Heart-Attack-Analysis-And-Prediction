@@ -1,4 +1,4 @@
-![Heart_attack_Intro](https://github.com/user-attachments/assets/3a4e885c-6beb-4453-9bf6-2ed6e173278c)### Heart Attack Analysis And Prediction
+### Heart Attack Analysis And Prediction
 
 # Heart Attack Analysis And Prediction
 GitHub Repository for work done as part of captstone project Professional Certificate in Machine Learning and Artificial Intelligence - Oct 2024
@@ -10,57 +10,41 @@ GitHub Repository for work done as part of captstone project Professional Certif
 
  * [Introduction](#Introduction)
  * [How to use the files in this repository?](#how-to-use-the-files-in-this-repository)
- * [Business Understanding](#Business-Understanding)
- * [Data Understanding](#Data-Understanding)
- * [Data Preparation](#Data-Preparation)
- * [Regression Model](#Regression-Model)
- * [Findings](#Findings)
- * [Next steps and Recommendations](#Next-steps-and-Recommendations)
+ * [Conclusion](#Conclusion)
+
 
  
 ## Introduction
 What is Heart Attack?
 
-![Uploading Heart_attack_Intro.jpeg…]()
+![Heart_attack_Intro](https://github.com/user-attachments/assets/3a4e885c-6beb-4453-9bf6-2ed6e173278c)
+
+*The medical name of heart attack is “Myocardial infarction”.
+*Heart attack in short; It is the occlusion of the vessel by plaque-like lesions filled with cholesterol and fat.
+*The lesion is called abnormal conditions that occur in the organs where the disease is located.
+*As a result of the blockage, the blood flow is completely cut off and a heart attack that can lead to death occurs.
+
+How does a heart attack occur?
+
+![Uploading Heart_attack.jpeg…]()
 
 ## How to use the files in this repository?
 
 The notebooks are grouped into the following categories:
- * ``data`` – vehicles.csv data file from Kaggle Machine Learning dataset repository used in the notebooks
+ * ``data`` – heart_attack_prediction_dataset.csv data file from Kaggle Machine Learning dataset repository used in the notebooks
  * ``images`` – Image files used in Notebook and Project Description
- * ``notebook`` – What Drives the Price of a Car Notebook
+ * ``notebook`` – Heart_attack_Predictions
 
+## Conclusion
 
-## Business Understanding
-
-The business objective is to identify key features for used car prices based on the dataset provided so that Car Dealers and their Sales Team can use these key features to understand the cars that they need to have in their inventory to increase sales.
-
-For this application, we used a machine learning process which starts with gathering the data, cleaning, preparing and manipulating the data, training the model then testing to get predicted values and measure model accuracy. As part of the life cycle, additional data from sales should be used on an on-going bases to “improve” the model which leads to higher prediction accuracy on the factors that  consumers are looking for in used cars. 
-
-
-
-## Data Understanding
-
-The first thing that was apparent from the provided data was that it was not clean, it had missing values and some of the values were not realistic for used cars, for example, odometer with zero and single digit values; price with zero and single digits values.
-
-The dataset contains 426,880 entries and 18 columns, including key attributes like price, year, manufacturer, model, condition, odometer reading, fuel type, and transmission. However, there are missing values in several columns, especially condition, cylinders, size, and VIN.
-
-As you can see from the Diagram above, there are car prices with zero value for all conditions.
-
-## Data Preparation
-
-Summary of the Data Preparation is as follows:
-- Remove records with Zero Prices and Odometer values
-- Remove records where some of the factors are not populated
-- Drop a number of factors (i.e., VIN, id, region etc.) that are not significant in user car price determination
-- Review and remove the other factors (i.e., state, paint color, manufacturer, transmission etc.) and check if they have an impact on car price based on the provided data
-- Filtering the data based on year on manufacture = 1990 as the number of vehicles before 1990 were very low
-
-
-## Regression Models
-
-We ran a number of models (5 to be exact) to create 5 ML Models or AI Applications using the full set of features after data manipulation and a subset of features based on the correlation matrix between the features and used car prices. 
-
-Additional filtering (i.e., Price and Odometer > 4000 and Year > 2000) were also used to create datasets used from some of the models below.
-
+*Within the scope of the project, we first made the data set ready for Exploratory Data Analysis(EDA)
+*We performed Exploratory Data Analysis(EDA).
+*We analyzed numerical and categorical variables within the scope of univariate analysis by using Distplot and Pie Chart graphics.
+*Within the scope of bivariate analysis, we analyzed the variables among each other using FacetGrid, Count Plot, Pair Plot, Swarm plot, Box plot, and Heatmap graphics.
+*We made the data set ready for the model. In this context, we struggled with missing and outlier values.
+*We used four different algorithms in the model phase.
+*We got 87% accuracy and 88% AUC with the Logistic Regression model.
+*We got 83% accuracy and 85% AUC with the Decision Tree Model.
+*We got 83% accuracy and 89% AUC with the Support Vector Classifier Model. And we got 90.3% accuracy and 93% AUC with the Random Forest Classifier Model.
+*When all these model outputs are evaluated, we prefer the model we created with the Random Forest Algorithm, which gives the best results
 
